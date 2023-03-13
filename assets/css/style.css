@@ -2218,8 +2218,8 @@ span.counter {
   font-weight: 500;
   position: relative;
 }
-.desktop-nav .nav-bar > ul > li > a:hover {
-  color: #faa82b;
+.desktop-nav .nav-bar > ul > li > a:hover, .desktop-nav .nav-bar > ul > li > .active {
+  color: #faa82b !important;
 }
 
 .desktop-nav .nav-bar > ul > li:last-child > a {
@@ -6773,7 +6773,7 @@ img.light-icon {
   color: #222;
 }
 .shadow-title {
-  font-size: 160px;
+  font-size: 60px;
   font-weight: 900;
   color: transparent;
   line-height: 0.89;
@@ -6869,3 +6869,4 @@ img.light-icon {
   width: 100%;
   height: 135px;
 }
+
