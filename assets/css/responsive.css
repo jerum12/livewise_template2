@@ -98,7 +98,7 @@
     font-size: 65px;
   }
   .client-slider.owl-carousel .owl-item img {
-    width: 70% !important;
+    width: 100px !important;
   }
   .history .full .h-box p {
     width: 45%;
@@ -537,9 +537,9 @@
     line-height: 45px;
     margin-bottom: 20px;
   }
-  .service-style-two .service-two-box .service-two-icon:before {
+  /* .service-style-two .service-two-box .service-two-icon:before {
     left: -10px;
-  }
+  } */
   .service-style-two .service-two-box .service-two-icon {
     width: 95px;
     height: 110px;
@@ -1711,9 +1711,9 @@
   .core-features .space {
     padding: 0 0 60px;
   }
-  .client-review-style-one img {
+  /* .client-review-style-one img {
     width: 100%;
-  }
+  } */
   .renovation .reno-data:before {
     display: none;
   }
@@ -1862,6 +1862,9 @@
   }
 }
 @media (max-width: 600px) {
+  .client-img {
+    display: none;
+  }
   .project-completed.our-projects-one .data {
     padding-bottom: 15px;
   }
@@ -2452,7 +2455,7 @@
     display: none;
   }
   .certificates .c-slider .c-main .c-first {
-    width: 50%;
+    width: 100%;
   }
   .certificates .c-slider .c-main .c-first figure:before {
     width: 70px;
@@ -2529,6 +2532,7 @@
   }
   .core-features .accordion-header {
     width: 90%;
+    margin-top: 10px;
   }
   .about-style-one .about-data-right h2,
   .heading h2,
