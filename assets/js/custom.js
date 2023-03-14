@@ -54,6 +54,7 @@ jQuery(document).ready(function ($) {
       items: 2,
       margin: 12,
       dots: true,
+      loop: true,
       //   nav: true,
       //   navText: [
       //     "<i class='fa-solid fa-angles-left'></i>",
